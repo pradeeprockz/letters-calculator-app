@@ -1,0 +1,43 @@
+/* Write your code here. */
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+}
+.letters-calculator-container {
+  text-align: center;
+  background-color: #1d976c;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+}
+.description{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #ffffff;
+}
+.input-container {
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-field::placeholder {
+  color: #e4e7eb;
+}
+
+.letter-count {
+  font-size: 18px;
+  margin: 0;
+}
